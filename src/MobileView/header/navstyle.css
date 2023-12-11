@@ -1,0 +1,39 @@
+.overlay {
+    height: 100%;
+    /* width: 25%; */
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    /* left: 75%; */
+   background-color: rgba(0, 0, 0, 0.562);
+   
+    width: 100%;
+    transition: visibility 1s;
+    
+  }
+  
+  .overlay-content {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    opacity: 100;
+    text-align: center;
+    background-color:white;
+  }
+  
+  /* .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  } */
+
+  .overlay .closebtn {
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index: 99;
+   right: -410px;
+    font-size: 50px;
+    font-weight: 200;
+    color: white;
+  }
+  
